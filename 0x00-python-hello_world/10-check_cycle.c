@@ -17,7 +17,7 @@ int check_cycle(listint_t *list)
 		if (!s2 || !s1)
 			return (0);
 		if (s2->next == s1)
-			return (1); 
+			return (1);
 	}
 	return (0);
 }
